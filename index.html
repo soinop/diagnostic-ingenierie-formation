@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
+<html lang="fr"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SOINOP — Diagnostic Ingénierie de Formation</title>
@@ -201,7 +199,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f
 <body>
 
 <!-- SCREEN 1: LANDING + LOGIN -->
-<div id="sl" class="screen active">
+<div id="sl" class="screen">
   <div class="lgrid">
     <div class="lleft">
       <div class="llogo">
@@ -244,7 +242,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f
 </div>
 
 <!-- SCREEN 2: ADMIN -->
-<div id="sa" class="screen">
+<div id="sa" class="screen active">
   <div class="acon">
     <div class="atop">
       <div class="asml"><img src="data:image/png;base64,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" alt="SOINOP"><span>SOI<em>NOP</em> — Espace consultant</span></div>
@@ -254,14 +252,14 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f
     <div class="acard">
       <h3>🔐 Connexion consultant</h3>
       <p class="adesc">Accès réservé à l'équipe SOINOP.</p>
-      <div id="aerr" class="lerr" style="max-width:360px">Mot de passe incorrect.</div>
+      <div id="aerr" class="lerr" style="max-width: 360px; display: none;">Mot de passe incorrect.</div>
       <div style="display:flex;gap:8px;align-items:end;max-width:360px">
         <div class="ff" style="flex:1;margin:0"><label>Mot de passe consultant</label><input type="password" id="apwd" placeholder="Mot de passe SOINOP"></div>
         <button class="btnadd" onclick="adminLogin()" style="margin-bottom:0;padding:11px 18px">Accéder →</button>
       </div>
     </div>
 
-    <div id="apanel" style="display:none">
+    <div id="apanel" style="display: block;">
       <div class="how-box">
         <h4>📌 Comment ajouter un prospect ?</h4>
         <div class="how-steps">
@@ -281,7 +279,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f
           <input type="text" id="npwd" placeholder="Mot de passe">
           <button class="btnadd" onclick="addProspect()">+ Ajouter</button>
         </div>
-        <div id="plist"></div>
+        <div id="plist"><div class="prow"><div style="flex:1"><div class="pname">Soinop demo</div><div class="pemail">soinop.commercial@gmail.com &nbsp;·&nbsp; <span style="font-family:monospace;color:#374151;font-size:12px">Azouazi2026@</span></div></div><div style="display:flex;gap:5px"><button class="btsm" onclick="copyEmail(0)">📋 Copier email</button><button class="btsm del" onclick="delProspect(0)">✕</button></div></div></div>
       </div>
 
       <div class="acard">
@@ -319,7 +317,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f
 
 <script>
 // ── PROSPECTS INTÉGRÉS (mis à jour automatiquement) ──
-const PROSPECTS_DATA = [{"name":"Demo","email":"demo@soinop.ma","password":"demo1234"}];
+const PROSPECTS_DATA = [{"name":"Soinop demo","email":"soinop.commercial@gmail.com","password":"Azouazi2026@"}];
 const ADMIN_PWD = "soinop2025";
 
 // Prospects en session (inclut ceux du fichier + ajouts admin)
@@ -379,29 +377,14 @@ function renderPList(){
 }
 
 function downloadUpdatedFile(){
-  if(!sessionProspects.length){alert('Ajoutez au moins un prospect avant de telecharger.');return}
+  if(!sessionProspects.length){alert('Ajoutez au moins un prospect avant de télécharger.');return}
+  const html=document.documentElement.outerHTML;
   const newData=JSON.stringify(sessionProspects);
-  fetch(window.location.href)
-    .then(function(r){return r.text()})
-    .then(function(html){
-      const updated=html.replace('const PROSPECTS_DATA = '+JSON.stringify(PROSPECTS_DATA)+';','const PROSPECTS_DATA = '+newData+';');
-      if(updated===html){
-        alert('Erreur : impossible de mettre a jour. Verifiez que le fichier est bien index.html sur GitHub Pages.');
-        return;
-      }
-      const blob=new Blob([updated],{type:'text/html;charset=utf-8'});
-      const a=document.createElement('a');
-      a.href=URL.createObjectURL(blob);
-      a.download='index.html';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      setTimeout(function(){URL.revokeObjectURL(a.href)},2000);
-      alert('Fichier index.html telecharge avec succes !\n\nEtapes GitHub :\n1. Ouvrez votre depot GitHub\n2. Glissez-deposez ce fichier dans le depot\n3. Cliquez Commit changes\n\nLe prospect peut maintenant se connecter.');
-    })
-    .catch(function(){
-      alert('Erreur reseau. Assurez-vous que le site est heberge sur GitHub Pages et que vous etes connecte a internet.');
-    });
+  const updated=html.replace(/const PROSPECTS_DATA = \[.*?\];/s,'const PROSPECTS_DATA = '+newData+';');
+  const blob=new Blob([updated],{type:'text/html;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='index.html';a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  alert('✓ Fichier "index.html" téléchargé !\n\nÉtape suivante :\n1. Allez sur votre dépôt GitHub\n2. Glissez-déposez ce fichier\n3. Cliquez "Commit changes"')
 }
 
 // ── DIAGNOSTIC ─────────────────────────────────────────────────────
@@ -542,5 +525,6 @@ function fillStep(c){
 }
 function renderD(){renderPBar();const c=document.getElementById('dcontent');c.innerHTML='';fillStep(c)}
 </script>
-</body>
-</html>
+
+
+</body></html>
